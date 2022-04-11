@@ -23,7 +23,7 @@ int minima(int *arr, int N){
 int main()
 {
 	int a,b,f;
-	int size=100;
+	int size=10;
 	int *mass=new int [size];
 	for (int i = 0; i < 10; ++i)
 	{
