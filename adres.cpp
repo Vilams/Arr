@@ -1,15 +1,11 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
+
 void print(int *arr2, int ff){
 	for (int i = 0; i <ff ; ++i)
 	{
 		cout<<arr2[i];
 	}
-}
-git boba_and_biba(int g)
-{
-	return pow(g, 2);
 }
 int minima(int *arr, int N){
 	int min=arr[0];
@@ -28,21 +24,20 @@ int minima(int *arr, int N){
 int main()
 {
 	int a,b,f;
-
-	int size=10;
-
+	int size=100;
 	int *mass=new int [size];
-	for (int i = 0; i < 50; ++i)
+	for (int i = 0; i < 10; ++i)
 	{
 		cin>> mass[i];
 		cout>>"pricol"
 ;
 	}
 	cout<<endl;
-	cout<<"nam renge: ";
+	
 	cin>>a;
 	cout<<endl;
 	minima(mass,a);
 	print(mass,size);
+
 	return 0;
 }
