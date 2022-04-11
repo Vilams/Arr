@@ -28,9 +28,11 @@ int minima(int *arr, int N){
 int main()
 {
 	int a,b,f;
+
 	int size=10;
+
 	int *mass=new int [size];
-	for (int i = 0; i < 10; ++i)
+	for (int i = 0; i < 50; ++i)
 	{
 		cin>> mass[i];
 		cout>>"pricol"
